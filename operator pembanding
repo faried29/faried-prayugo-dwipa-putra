@@ -1,0 +1,28 @@
+package fariedprayugo;
+
+public class fariedprayugo {
+    public static void main(String[] args) {
+        int a = 200;
+        int z = 500;
+        boolean hasil;
+
+        hasil = a == z;
+        System.out.println("Apakah a == z ? " + hasil);
+
+        hasil = a != z;
+        System.out.println("Apakah a != z ? " + hasil);
+
+        hasil = a > z;
+        System.out.println("Apakah a > z ? " + hasil);
+
+        hasil = a < z;
+        System.out.println("Apakah a < z ? " + hasil);
+
+        hasil = a >= z;
+        System.out.println("Apakah a >= z ? " + hasil);
+
+        hasil = a <= z;
+        System.out.println("Apakah a <= z ? " + hasil);
+    }
+
+}
